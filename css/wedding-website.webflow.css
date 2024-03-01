@@ -1,0 +1,714 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
+body {
+  color: #333;
+  background-color: #fcf9f7;
+  font-family: Sahitya, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.home-hero {
+  height: 100vh;
+  background-image: url('../images/main-hero.png');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.container {
+  max-width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.nav-link {
+  color: #81d8d0;
+  text-transform: uppercase;
+  padding: 5px;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-link.text-black {
+  color: #111;
+}
+
+.nav-menu {
+  grid-column-gap: 75px;
+  grid-row-gap: 75px;
+  display: flex;
+}
+
+.top-menu {
+  padding-top: 30px;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.main-title {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Great Vibes, cursive;
+  font-size: 130px;
+  font-weight: 400;
+  line-height: 75%;
+}
+
+.main-title-wrapper {
+  margin-top: 60px;
+}
+
+.date-block {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, .08);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.txt-invite {
+  color: #000;
+  font-family: Great Vibes, cursive;
+  font-size: 32px;
+  line-height: 100%;
+}
+
+.text-block-2 {
+  color: #000;
+  font-size: 32px;
+  line-height: 100%;
+}
+
+.wedding-date2 {
+  color: #000;
+  font-family: Great Vibes, cursive;
+  font-size: 128px;
+  line-height: 100%;
+}
+
+.txt-days-remaining {
+  font-size: 32px;
+}
+
+.div-love-story {
+  min-height: 2000px;
+  background-image: url('../images/home-bg-2.png');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.h2-love-story {
+  color: rgba(0, 0, 0, .2);
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.love-story-card-wrapper {
+  width: 90%;
+  max-width: 1600px;
+  grid-column-gap: 3vw;
+  grid-row-gap: 3vw;
+  direction: ltr;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.love-story-card {
+  width: 30%;
+  max-width: 515px;
+  border: 1px solid rgba(221, 204, 154, .6);
+  flex: none;
+  padding: 10px;
+}
+
+.border-gold {
+  height: 100%;
+  border: 1px solid rgba(221, 204, 154, .6);
+}
+
+.border-gold.p-10 {
+  padding: 10px;
+}
+
+.ls-card-flex {
+  height: 100%;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.ls-card-hr {
+  width: 62px;
+  height: 1px;
+  background-color: rgba(129, 216, 208, .6);
+}
+
+.text-block-3 {
+  color: rgba(0, 0, 0, .8);
+  text-align: center;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.text-block-4 {
+  color: #000;
+  text-align: center;
+  font-family: Allura, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.love-story-bg-overlay {
+  background-image: linear-gradient(#fcf9f7, #fcf9f7 75%, rgba(254, 252, 247, .56) 90%, rgba(255, 255, 255, 0));
+  padding-top: 40px;
+  padding-bottom: 160px;
+}
+
+.home-footer {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  background-color: #000;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+.text-block-5 {
+  color: #fff;
+  font-family: Allura, sans-serif;
+  font-size: 40px;
+  line-height: 42px;
+}
+
+.home-footer-menu {
+  grid-column-gap: 75px;
+  grid-row-gap: 75px;
+  display: flex;
+}
+
+.home-footer-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.page-title {
+  color: #000;
+  text-align: center;
+  margin-top: 100px;
+  font-family: Great Vibes, cursive;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+._w-90-max-w-1196 {
+  width: 90%;
+  max-width: 1196px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+._w-90-max-w-1196.mt-100 {
+  margin-top: 100px;
+}
+
+.page-paragraph {
+  color: #000;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.page-paragraph.text-left {
+  text-align: left;
+}
+
+.agenda-timeline-wrapper {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.event-block {
+  display: flex;
+}
+
+.agenda-icon {
+  width: 85px;
+}
+
+.agenda-icon-wrapper {
+  border-right: 1.3px solid rgba(0, 0, 0, .7);
+  flex: none;
+  padding-right: 40px;
+}
+
+.event-data {
+  padding-left: 60px;
+}
+
+.event-data.pb-100 {
+  padding-bottom: 100px;
+}
+
+.event-title {
+  color: #000;
+  font-size: 48px;
+  line-height: 110%;
+}
+
+.event-data-title {
+  color: rgba(0, 0, 0, .7);
+  margin-top: 30px;
+  margin-bottom: 6px;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.event-data-description {
+  color: #000;
+  font-size: 32px;
+  line-height: 120%;
+}
+
+.link {
+  color: #000;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.agenda-contact-link {
+  color: #000;
+  margin-top: 20px;
+  font-size: 32px;
+  line-height: 36px;
+  display: block;
+}
+
+.rsvp-block {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+}
+
+.heading {
+  font-family: Great Vibes, cursive;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.rsvp-form {
+  grid-column-gap: 70px;
+  grid-row-gap: 70px;
+  flex-direction: column;
+  display: flex;
+}
+
+.rsvp-form-wrapper {
+  width: 90%;
+  max-width: 740px;
+  grid-column-gap: 70px;
+  grid-row-gap: 70px;
+  border: 1px solid #000;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  display: block;
+}
+
+.btn-submit {
+  color: #f5f2e6;
+  background-color: #000;
+  padding: 20px 53px;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.text-field {
+  color: #000;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0 solid #000;
+  border-bottom-width: 1px;
+  margin-bottom: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  line-height: 105%;
+}
+
+.form-flex {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  display: flex;
+}
+
+.registry-link-wrapper {
+  margin-top: 60px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.registry-link-block {
+  grid-column-gap: 100px;
+  grid-row-gap: 100px;
+  align-items: center;
+  margin-bottom: 60px;
+  display: flex;
+}
+
+.text-block-6 {
+  font-size: 32px;
+}
+
+.reg-link-title {
+  color: #000;
+  font-size: 32px;
+  line-height: 110%;
+}
+
+.reg-link-description {
+  color: #000;
+  text-align: left;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.reg-link-description.text-left {
+  text-align: left;
+}
+
+.wishlist-image-div {
+  flex: none;
+}
+
+.wishlist-data {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-around;
+  display: flex;
+}
+
+.wishlist-img {
+  width: 360px;
+}
+
+.reg-link-a {
+  color: #000;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+@media screen and (min-width: 1920px) {
+  .love-story-card-wrapper {
+    grid-column-gap: 4vw;
+    grid-row-gap: 4vw;
+  }
+
+  .love-story-card {
+    width: 28%;
+  }
+
+  .text-block-3 {
+    font-size: 20px;
+  }
+
+  .text-block-4 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .nav-menu {
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+  }
+
+  .wedding-date2 {
+    font-size: 96px;
+  }
+
+  .text-block-3 {
+    font-size: 15px;
+  }
+
+  .text-block-4 {
+    font-size: 26px;
+  }
+
+  .agenda-icon {
+    width: 50px;
+  }
+
+  .agenda-icon-wrapper {
+    padding-right: 30px;
+  }
+
+  .event-data {
+    padding-left: 40px;
+  }
+
+  .event-data.pb-100 {
+    padding-bottom: 80px;
+  }
+
+  .event-title {
+    font-size: 30px;
+  }
+
+  .event-data-title {
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size: 20px;
+  }
+
+  .event-data-description {
+    font-size: 26px;
+  }
+
+  .agenda-contact-link {
+    font-size: 24px;
+  }
+
+  .registry-link-block {
+    grid-column-gap: 60px;
+    grid-row-gap: 60px;
+  }
+
+  .reg-link-title {
+    font-size: 20px;
+  }
+
+  .reg-link-description {
+    font-size: 16px;
+  }
+
+  .wishlist-img {
+    width: 206px;
+  }
+
+  .reg-link-a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+   /* justify-content: flex-start;
+    display: flex;*/
+  }
+
+  .nav-link {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .nav-menu {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, .3);
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-menu {
+    padding-top: 10px;
+  }
+
+  .main-title {
+    font-size: 96px;
+  }
+
+  .main-title-wrapper {
+    margin-top: 30px;
+  }
+
+  .txt-invite {
+    font-size: 24px;
+  }
+
+  .wedding-date2 {
+    font-size: 64px;
+  }
+
+  .txt-days-remaining {
+    font-size: 24px;
+  }
+
+  .div-love-story {
+    min-height: 3200px;
+  }
+
+  .h2-love-story {
+    font-size: 48px;
+  }
+
+  .love-story-card-wrapper {
+    grid-column-gap: 8vw;
+    grid-row-gap: 8vw;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .love-story-card {
+    width: 60%;
+  }
+
+  .home-footer-menu {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-footer-link {
+    font-size: 16px;
+  }
+
+  .page-title {
+    margin-top: 40px;
+    font-size: 50px;
+  }
+
+  .page-paragraph {
+    font-size: 16px;
+  }
+
+  .rsvp-form {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+  }
+
+  .rsvp-form-wrapper {
+    width: 95%;
+    padding: 30px 20px;
+  }
+
+  .form-flex {
+    flex-direction: column;
+  }
+
+  .registry-link-block {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    flex-direction: column;
+  }
+
+  .reg-link-title {
+    text-align: center;
+  }
+
+  .reg-link-description {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .reg-link-a {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .main-title {
+    font-size: 64px;
+  }
+
+  .txt-invite {
+    font-size: 20px;
+  }
+
+  .wedding-date2 {
+    font-size: 40px;
+  }
+
+  .txt-days-remaining {
+    font-size: 20px;
+  }
+
+  .div-love-story {
+    min-height: 1800px;
+    background-repeat: no-repeat;
+    background-size: 260%;
+  }
+
+  .h2-love-story {
+    font-size: 30px;
+  }
+
+  .love-story-card {
+    width: 100%;
+  }
+
+  .agenda-icon {
+    width: 32px;
+  }
+
+  .agenda-icon-wrapper {
+    padding-right: 20px;
+  }
+
+  .event-data {
+    padding-left: 20px;
+  }
+
+  .event-data.pb-100 {
+    padding-bottom: 40px;
+  }
+
+  .event-title {
+    font-size: 20px;
+  }
+
+  .event-data-title {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+
+  .event-data-description {
+    font-size: 18px;
+  }
+
+  .agenda-contact-link {
+    font-size: 20px;
+  }
+}
+
+
